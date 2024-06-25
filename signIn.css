@@ -1,0 +1,254 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.main {
+    position: relative;
+    text-align: center;
+}
+
+.main img {
+    width: 100%;
+    height: 120vh;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.nav img {
+    margin-left: 12em;
+    height: 60px;
+    width: 10em;
+}  
+ .sign_in {
+    background-color: #141414;
+    position: absolute;
+    top: 15%;
+    padding: 2em;
+    left: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 55em;
+}
+
+.sign_in h2 {
+    color: #fff;
+    align-self: flex-start;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+.sign_in input {
+    padding: 20px 1.4em;
+    width: 18em;
+    margin-bottom: 1.5em;
+    background-color: transparent;
+    color: #fff;
+    font-size: larger;
+    border-radius: 5px;
+    border: 1px solid rgb(179, 172, 172);
+}
+
+.sign-in-btn {
+    width: 25em;
+    padding: 1em;
+    font-size: 1em;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #e50914;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sign-in-btn:hover {
+    background-color: #f40612;
+}
+.sign_in span{
+    color: rgb(128, 128, 128);
+    margin: 15px 0;
+}
+.sign-in-code{
+    width: 25em;
+    padding: 1em;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: rgb(65 65 65);
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: -15px;
+}
+.sign-in-code:hover{
+    background-color:rgb(51, 47, 47);
+    transition: background-color 0.2s ease;
+}
+.sign_in a{
+    text-decoration: none;
+    color: #fff;
+    margin: 15px 0;
+}
+.sign_in a:hover{
+    text-decoration: underline;
+    color: rgb(148, 145, 145);
+}
+.check-box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-right: 62%;
+}
+
+.check-box input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgb(179, 172, 172);
+    border-radius: 3px;
+    background-color: #141414;
+    position: relative;
+    cursor: pointer;
+}
+
+.check-box input[type="checkbox"]:checked {
+    background-color: #f9f9f9;
+}
+
+.check-box input[type="checkbox"]:checked::after {
+    content: "✔";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 4px;
+}
+
+.check-box label {
+    margin-top: -24px;
+    margin-left: 10px;
+    color: #fff;
+}
+.new-to-netflix{
+    margin-top: -24px;
+    margin-right: 45%;
+    display: flex;
+}
+.new-to-netflix p{
+    color:rgb(128, 128, 128);
+    margin-right: 6px;
+}
+.new-to-netflix a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.terms{
+    margin-right: 25%;
+    color: rgb(159, 156, 156);
+    font-size: small;
+}   
+.conditions a{
+    text-decoration: none;
+    color: blue;
+}
+.conditions a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 5em 1.5em;
+}
+.class1{
+    flex-direction: column;
+    display: flex;
+}
+.class1 a{
+    text-decoration: underline;
+    color:rgb(159, 156, 156);
+}
+.class1 a:hover{
+    text-decoration: underline;
+}
+.class11{
+    color:rgb(159, 156, 156);
+    margin-bottom: 25px;
+}
+.class11 a{
+    text-decoration: none;
+}
+.class11 a:hover{
+    text-decoration: underline;
+}
+.faq{
+    margin-bottom: 25px;
+}
+.cookie{
+    margin-bottom: 25px;
+}
+ select {
+    margin-bottom: 75px;
+    margin-right: 98px;
+    padding: 7px 10px;
+    background-color: transparent;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 2px solid rgb(179, 172, 172);
+    color: #fff;
+}
+option{
+    color: #000;
+    padding: 5px 10px;
+    font-size: large;
+}
+.class2{
+    display: flex;
+    flex-direction: column;
+}
+.class2 a{
+    text-decoration: underline;
+    color:rgb(179, 172, 172);
+    margin-bottom: 25px;
+}
+.class21{
+    margin-top:45px;
+}
+.class3{
+    display: flex;
+    flex-direction: column;
+}   
+.class3 a{
+    color:rgb(179, 172, 172);
+    text-decoration: underline;
+    margin-top: 45px;
+}
+.class4{
+    display: flex;
+    flex-direction: column;
+}
+.class4 a{
+    text-decoration: underline;
+    color:rgb(179, 172, 172); 
+    margin-top: 45px;
+}

@@ -1,0 +1,363 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #232323;
+}
+
+.main {
+    position: relative;
+    text-align: center;
+}
+
+.main img {
+    width: 100%;
+    height: 95vh;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.nav img {
+    margin-left: 12em;
+    height: 60px;
+    width: 10em;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+
+}
+
+.button select {
+    margin-right: 20px;
+    padding: 7.5px 20px;
+    background-color: transparent;
+    font-size: large;
+    border-radius: 5px;
+    border: 2px solid rgb(179, 172, 172);
+    color: #fff;
+}
+option{
+    color: #000;
+    padding: 0.5em 1em;
+    font-size: large;
+}
+
+.button button {
+    padding: 10px 20px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.button button:hover {
+    background-color: #f40612;
+}
+.headings{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.main-heading{
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.main-heading2{
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+.main-heading3{
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+.email-input {
+    display: flex;
+}
+.email-input input{
+    padding: 6px 1.4em;
+    width: 15em;
+    margin-right: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-size: larger;
+    border-radius: 5px;
+    border: 1px solid rgb(179, 172, 172);
+}
+.started{
+    justify-content: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5em;
+    background-color: #e50914;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.started:hover{
+    background-color: #f40612;
+}
+.started .arrow {
+    color: #fff;
+    font-size: 1em;
+    margin-left: 5px;
+}
+.main-section1{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    background-color: #000;
+    align-items: center;
+    margin: 6px 0;
+    color: #fff;
+    padding: 5em;
+}
+.left2right{
+    display: flex;
+    flex-direction: column;
+}
+.left2right h2{
+    font-size: 3em;
+}
+.left2right span{
+    font-size: 1.5em;
+}
+.main-section1 img{
+    height: 15em;
+}
+.main-section1 .right2left{
+    height: 350px;
+    width: 450px;
+}
+.main-section1 .img3{
+    height: 300px;
+}   
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    margin: 6px 0;
+    padding: 5em;
+}
+.footer h5{
+    color: rgb(159, 156, 156);
+    font-size: medium;
+}
+.class1{
+    flex-direction: column;
+    display: flex;
+}
+.class1 a{
+    text-decoration: underline;
+    color:rgb(159, 156, 156);
+}
+.class1 a:hover{
+    text-decoration: underline;
+}
+.class11{
+    color:rgb(159, 156, 156);
+    margin-bottom: 25px;
+}
+.class11 a{
+    text-decoration: none;
+}
+.class11 a:hover{
+    text-decoration: underline;
+}
+.class2 a{
+    text-decoration: underline;
+    color:rgb(179, 172, 172);
+    margin-bottom: 25px;
+}
+
+.class3{
+    display: flex;
+    flex-direction: column;
+}
+.class3 a{
+    color:rgb(179, 172, 172);
+    text-decoration: underline;
+    /* margin-top: 45px; */
+}
+.class4{
+    display: flex;
+    flex-direction: column;
+}
+.class4 a{
+    text-decoration: underline;
+    color:rgb(179, 172, 172); 
+    /* margin-top: 45px; */
+}
+.faq{
+    margin-bottom: 25px;
+}
+.cookie{
+    margin-bottom: 25px;
+}
+ select {
+    margin-right: 98px;
+    padding: 7px 10px;
+    background-color: transparent;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 2px solid rgb(179, 172, 172);
+    color: #fff;
+}
+option{
+    color: #000;
+    padding: 5px 10px;
+    font-size: large;
+}
+.class2{
+    display: flex;
+    flex-direction: column;
+}
+.class2 a{
+    text-decoration: underline;
+    color:rgb(179, 172, 172);
+    margin-bottom: 25px;
+}
+.class21{
+    margin-top:45px;
+}
+.class3{
+    display: flex;
+    flex-direction: column;
+}
+.class3 a{
+    color:rgb(179, 172, 172);
+    text-decoration: underline;
+    margin-top: 45px;
+}
+.class4{
+    display: flex;
+    flex-direction: column;
+}
+.class4 a{
+    text-decoration: underline;
+    color:rgb(179, 172, 172); 
+    margin-top: 45px;
+}
+.Frequently-asked{
+    background-color: #000;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 6px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+}
+.faqs {
+    width: 40em;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 25px 15px;
+    font-size: 0.8em;
+    cursor: pointer;
+    position: relative;
+}
+
+.faq-question .icon {
+    position: absolute;
+    align-items: center;
+    right: 15px;
+    top: 10px;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.faq-question:focus {
+    outline: none;
+}
+
+.faq-answer {
+    background-color: #444;
+    margin-top: 5px;
+    padding: 10px;
+    display: none;
+    font-size: 0.8em;
+}
+
+.faq-answer p {
+    padding: 5px 10px;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+.faqs h6{
+    font-size: 1px;
+}
+.foot-input {
+    display: flex;
+    margin-top: -20px;
+    margin-bottom: 80px;
+}
+.foot-input input{
+    padding: 18px 25px;
+    width: 18em;
+    margin-right: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 0.5em;
+    border-radius: 5px;
+    border: 1px solid rgb(179, 172, 172);
+}
+.foot-started{
+    justify-content: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.8em;
+    background-color: #e50914;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    align-items: center;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+.foot-started:hover{
+    background-color: #f40612;
+}
